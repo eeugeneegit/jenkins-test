@@ -1,0 +1,32 @@
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>task1-servlet</servlet-name>
+    <servlet-class>servlets.ServletTask1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>task1-servlet</servlet-name>
+    <url-pattern>/task1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>task2-servlet</servlet-name>
+    <servlet-class>servlets.ServletTask2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>task2-servlet</servlet-name>
+    <url-pattern>/task2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>task3-servlet</servlet-name>
+    <servlet-class>servlets.ServletTask3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>task3-servlet</servlet-name>
+    <url-pattern>/task3</url-pattern>
+  </servlet-mapping>
+
+</web-app>
